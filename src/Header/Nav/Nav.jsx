@@ -16,7 +16,7 @@ function Nav() {
         isDynamic={true}
         ignoreCancelEvents={false}
         spyThrottle={500}
-      > Main
+      > MAIN
        </Link>
        <Link
         activeClass={style.active}
@@ -29,7 +29,7 @@ function Nav() {
         isDynamic={true}
         ignoreCancelEvents={false}
         spyThrottle={500}
-      > Skills
+      > SKILLS
        </Link>
       <Link
         activeClass={style.active}
@@ -42,7 +42,7 @@ function Nav() {
         isDynamic={true}
         ignoreCancelEvents={false}
         spyThrottle={500}
-      > Projects
+      > PROJECTS
        </Link>
        <Link
         activeClass={style.active}
@@ -55,7 +55,7 @@ function Nav() {
         isDynamic={true}
         ignoreCancelEvents={false}
         spyThrottle={500}
-      > Contacts
+      > CONTACTS
        </Link>
     </div>
   );
