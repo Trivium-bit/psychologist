@@ -1,0 +1,11 @@
+@import '../common/styles/sass/variables.scss';
+
+.headerBlock {
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: $backgroundMainColor;
+}

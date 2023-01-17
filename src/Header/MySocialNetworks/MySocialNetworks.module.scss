@@ -1,0 +1,21 @@
+@import '../../common/styles/sass/variables.scss';
+
+.social {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    .icon {
+        color: $titleColor;
+        &:hover {
+            transform: scale(1.05);
+            transition: 0.1s;
+            color: $primeryColor;
+        }
+    }
+    @media screen and (max-width: 420px) {
+        display: none;
+    }
+
+}

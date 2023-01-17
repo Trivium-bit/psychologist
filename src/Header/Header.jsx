@@ -1,7 +1,15 @@
+import style from './Header.module.scss';
+import Logo from './Logo/Logo';
+import Nav from './Nav/Nav';
+import MySocialNetworks from './MySocialNetworks/MySocialNetworks';
+
+
 function Header() {
     return (
-        <div>
-            1
+        <div className={style.headerBlock}>
+          <Logo />
+          <Nav />
+          <MySocialNetworks />
         </div>
     );
 }

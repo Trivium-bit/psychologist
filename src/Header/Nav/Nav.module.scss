@@ -1,0 +1,38 @@
+@import '../../common/styles/sass/variables.scss';
+@import '../../common/styles/sass/mixins.scss';
+
+.nav {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    a {
+        /*      font-family: 'Poppins', sans-serif;
+        color: $titleColor;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.71429;
+         */
+        @include text (16px, 1.71429, 500, sans-serif, $titleColor);
+        text-decoration: none;
+        padding: 20px 0;
+        text-align: left;
+
+        &:hover {
+            text-decoration: none;
+            color: $primeryColor;
+            cursor: pointer;
+        }
+    }
+
+    .active {
+        color: $primeryColor;
+    }
+
+    @media screen and (max-width: 420px) {
+        display: none;
+    }
+
+}
