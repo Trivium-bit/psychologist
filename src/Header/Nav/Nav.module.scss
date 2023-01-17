@@ -9,13 +9,13 @@
     list-style: none;
 
     a {
-        /*      font-family: 'Poppins', sans-serif;
+         /*      font-family: 'Poppins', sans-serif;
         color: $titleColor;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.71429;
          */
-        @include text (16px, 1.71429, 500, sans-serif, $titleColor);
+        @include text (18px, 20px, 500, 'Roboto', $titleColor);
         text-decoration: none;
         padding: 20px 0;
         text-align: left;
