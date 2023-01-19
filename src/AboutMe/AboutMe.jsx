@@ -17,8 +17,8 @@ function AboutMe() {
           <br />
           <br />
           Arcu vitae elementum curabitur vitae nunc sed velit dignissim. Volutpat diam ut venenatis tellus in.
-
         </div>
+        <button className={style.button}>Read more</button>
       </div>
     </div>
   );
