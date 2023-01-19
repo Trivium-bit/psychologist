@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Main.module.scss';
-import foto from '../common/assets/image/foto.png';
+import photo from '../common/assets/image/photo.png';
 
 function Main() {
   
@@ -15,8 +15,8 @@ function Main() {
           <h1>Моё имя Юлия,<br/>
              и я психолог</h1>
         </div>
-        <div className={style.foto}>
-        <img className={style.foto} src={foto} alt={"mainFoto"} />
+        <div className={style.photo}>
+        <img className={style.photo} src={photo} alt={"mainPhoto"} />
         </div>
       </div>
       </div>

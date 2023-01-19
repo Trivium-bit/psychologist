@@ -32,7 +32,7 @@
             & span {
                 @include text (17px, 1.2em, 400, $fontFamilyQuicksand, $descriptionColor);
                 text-transform: uppercase;
-                letter-spacing: 2px;
+                letter-spacing: 1.8px;
 
                 &:nth-child(3) {
                     @include text (55px, 90px, 900, $fontFamilyMarcellus, $primeryColor);
@@ -60,7 +60,7 @@
             }
         }
 
-        .foto {
+        .photo {
             max-width: 380px;
 
             @media screen and (max-width: 1511px) {
