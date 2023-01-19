@@ -2,9 +2,15 @@
 @import '../common/styles/sass/mixins.scss';
 
 .mainBlock {
-    min-height: 100vh;
-    background: #F6F7FA;
-    flex-wrap: wrap;
+    min-height: 80vh;
+    position: relative;
+
+
+    .background {
+        background-image: url('../common/assets/image/main_background.jpg');
+        width: 100%;
+        height: auto;
+    }
 
     .mainContainer {
         display: flex;
@@ -15,11 +21,7 @@
         width: 80%;
         margin: 0 auto;
         flex-wrap: wrap;
-        padding-top: 60px;
-
-        @media screen and (max-width: 420px) {
-            padding-top: 60px;
-        }
+        padding-top: 40px;
 
         .greetings {
             display: flex;
@@ -49,7 +51,7 @@
 
             & h1 {
                 margin: 0px;
-                @include text (75px, 90px, 900, $fontFamilyMarcellus, $titleColor);
+                @include text (75px, 90px, 900, $fontFamilyRoboto, $titleColor);
             }
 
             @media screen and (max-width: 460px) {
@@ -57,13 +59,14 @@
                 line-height: 50px;
             }
         }
-    }
 
-    .foto {
-        max-width: 380px;
-        @media screen and (max-width: 1511px) {
-            justify-content: center;
-            margin-left: 0px;
+        .foto {
+            max-width: 380px;
+
+            @media screen and (max-width: 1511px) {
+                justify-content: center;
+                margin-left: 0px;
+            }
         }
     }
 }
