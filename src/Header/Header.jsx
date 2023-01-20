@@ -1,7 +1,7 @@
 import style from './Header.module.scss';
 import Logo from './Logo/Logo';
 import Nav from './Nav/Nav';
-import MySocialNetworks from './MySocialNetworks/MySocialNetworks';
+import MySocialNetworks from '../common/components/MySocialNetworks/MySocialNetworks';
 
 
 function Header() {

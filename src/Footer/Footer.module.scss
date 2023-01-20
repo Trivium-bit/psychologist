@@ -1,0 +1,23 @@
+@import '../common/styles/sass/variables.scss';
+
+.footerBlock {
+    min-height: 10vh;
+    background-color: $backgroundMainColor;
+    .footerContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        .copyright {
+            padding-top: 10px;
+            font-family: 'Poppins', sans-serif;
+            color: $descriptionColor;
+            opacity: .75;
+            margin-bottom: 0;
+            line-height: 30px;
+        }
+    }
+}
+
+
+
