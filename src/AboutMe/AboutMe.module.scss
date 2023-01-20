@@ -39,7 +39,7 @@
 
         .button {
             width: 160px;
-            font-family:  $fontFamilyQuicksand,Sans-serif;
+            font-family: $fontFamilyQuicksand, Sans-serif;
             font-size: 16px;
             font-weight: 500;
             letter-spacing: 1px;
@@ -49,12 +49,13 @@
             border-radius: 25px;
             margin-top: 50px;
             padding: 12px;
-            box-shadow: 0 0 10px 0 rgba(182,184,192,.18);
+            box-shadow: 0 0 10px 0 rgba(182, 184, 192, .18);
             transition: 0.3s;
+
             &:hover {
                 background-color: $secondColor;
                 color: white;
-                cursor: pointer;  
+                cursor: pointer;
             }
         }
     }

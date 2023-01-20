@@ -1,0 +1,31 @@
+@import '../common/styles/sass/mixins.scss';
+@import '../common/styles/sass/variables.scss';
+
+.lecturesBlock {
+    min-height: 80vh;
+    background-color: $backgroundMainColor;
+
+    .lectures {
+        display: flex;
+        flex-direction: column;
+
+        & span {
+            @include text (18px, 1.2em, 400, $fontFamilyQuicksand, $descriptionColor);
+            margin-bottom: -30px;
+        }
+
+        & h2 {
+            @include text (37px, 58px, 400, $fontFamilyMarcellus, $blackColor);
+        }
+
+        .p {
+            @include text (18px, 1.2em, 400, $fontFamilyQuicksand, $descriptionColor);
+            max-width: 460px;
+            line-height: 1.5
+        }
+
+        .video {
+            padding-top: 30px;
+        }
+    }
+}
