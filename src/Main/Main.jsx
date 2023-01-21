@@ -11,9 +11,8 @@ function Main() {
       <div className={style.mainContainer}>
 
         <div className={style.greetings}>
-          <span>Привет всем</span>
-          <h1>Моё имя Юлия,<br/>
-             и я психолог</h1>
+          <span>Hi There</span>
+          <h1>I am Baliankova Yulia</h1>
         </div>
         <div className={style.photo}>
         <img className={style.photo} src={photo} alt={"mainPhoto"} />
